@@ -26,7 +26,7 @@ export function Users () {
       }, []);
 
     if (loading) {
-      return <div>Loading...</div>;
+      return <div className={styles.loading}></div>;
     }
   
     return (
